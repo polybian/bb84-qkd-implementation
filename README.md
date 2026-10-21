@@ -1,4 +1,4 @@
-# bb84-qkd-lab
+# bb84-qkd-implementation
 
 A complete, runnable simulation of **BB84** (Bennett & Brassard, 1984) —
 the first quantum key distribution protocol — built with Qiskit. Alice
@@ -6,7 +6,7 @@ and Bob exchange qubits, sift bases, estimate the error rate, and keep
 or abort the key. Run twice: once on a clean channel, once under an
 intercept-resend eavesdropping attack.
 
-This is lab #2 in my quantum series (`quantum-circuits-lab` was #1),
+This is #16 in my portfolio and #2 in my quantum series (`quantum-circuits-implementation` was #1),
 and the one closest to my background: I'm a CySA+-trained security
 person, so QKD is where my two worlds — cybersecurity and quantum —
 meet.
@@ -64,7 +64,7 @@ information-theoretic eavesdropping detection.
 Classical key exchange can be intercepted silently. In BB84,
 eavesdropping is *detectable by physics*: Eve's measurement disturbs the
 qubits, the QBER spikes from ~0% to ~25%, and Alice and Bob abort before
-any secret is at risk. This lab makes that abstract guarantee concrete
+any secret is at risk. This implementation makes that abstract guarantee concrete
 — you watch the numbers move.
 
 ## Interview Q&A

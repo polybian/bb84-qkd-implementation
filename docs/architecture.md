@@ -1,6 +1,6 @@
 # Architecture
 
-## What this lab is
+## What this is
 
 A working simulation of **BB84** (Bennett & Brassard, 1984) — the first
 quantum key distribution protocol — built on Qiskit. It runs the full
@@ -8,14 +8,14 @@ protocol end to end: quantum exchange, basis sifting, QBER estimation,
 and the abort decision, twice: once on a clean channel and once under
 an intercept-resend eavesdropping attack.
 
-This is lab #2 in my quantum series (`quantum-circuits-lab` was #1),
+This is #16 in my portfolio and #2 in my quantum series (`quantum-circuits-implementation` was #1),
 and the one closest to my background: I come from cybersecurity
 (CySA+ trained, SOC-adjacent work), so QKD is where my two worlds meet.
 
 ## Layout
 
 ```
-bb84-qkd-lab/
+bb84-qkd-implementation/
 ├── README.md
 ├── requirements.txt           # qiskit + qiskit-aer + numpy
 ├── run_all.sh
