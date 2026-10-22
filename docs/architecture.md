@@ -8,8 +8,7 @@ protocol end to end: quantum exchange, basis sifting, QBER estimation,
 and the abort decision, twice: once on a clean channel and once under
 an intercept-resend eavesdropping attack.
 
-This is #16 in my portfolio and #2 in my quantum series (`quantum-circuits-implementation` was #1),
-and the one closest to my background: I come from cybersecurity
+This one is closest to my background: I come from cybersecurity
 (CySA+ trained, SOC-adjacent work), so QKD is where my two worlds meet.
 
 ## Layout

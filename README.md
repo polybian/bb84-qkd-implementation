@@ -6,8 +6,7 @@ and Bob exchange qubits, sift bases, estimate the error rate, and keep
 or abort the key. Run twice: once on a clean channel, once under an
 intercept-resend eavesdropping attack.
 
-This is #16 in my portfolio and #2 in my quantum series (`quantum-circuits-implementation` was #1),
-and the one closest to my background: I'm a CySA+-trained security
+This one is closest to my background: I'm a CySA+-trained security
 person, so QKD is where my two worlds — cybersecurity and quantum —
 meet.
 
