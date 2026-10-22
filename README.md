@@ -67,12 +67,6 @@ qubits, the QBER spikes from ~0% to ~25%, and Alice and Bob abort before
 any secret is at risk. This implementation makes that abstract guarantee concrete
 — you watch the numbers move.
 
-## Interview Q&A
-
-[docs/interview-answers.md](docs/interview-answers.md) — QKD vs
-post-quantum crypto, why the 25%, why detection precedes risk, and how
-this connects to my security background.
-
 ## Plain-language guide
 
 [simplified-explanation.md](simplified-explanation.md) —
