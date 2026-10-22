@@ -25,8 +25,7 @@ bb84-qkd-implementation/
 │   ├── 02_bb84_with_eve.py    # intercept-resend: QBER ~25%, abort
 │   └── 03_key_rate.py         # raw qubits -> final key yield table
 ├── docs/
-│   ├── architecture.md        # this file
-│   └── interview-answers.md
+│   └── architecture.md        # this file
 └── simplified-explanation.md   # plain-language guide (Spanish)
 ```
 
