@@ -1,10 +1,10 @@
 """
-02 — BB84 under intercept-resend attack: Eve gets caught.
+02 - BB84 under intercept-resend attack: Eve gets caught.
 
 Eve intercepts every qubit, measures it in a random basis, and forwards
 the eigenstate she observed. Physics punishes her: whenever she guesses
-the wrong basis (50% of the time), she resends a random state, and Bob —
-on the positions where his basis matches Alice's — sees a 50% error
+the wrong basis (50% of the time), she resends a random state, and Bob - 
+on the positions where his basis matches Alice's - sees a 50% error
 rate. Expected QBER: 0.5 * 0.5 = 25%.
 
 That 25% is the whole point of QKD: eavesdropping is not just illegal,
@@ -37,7 +37,7 @@ def main() -> None:
     print(f"QBER                : {100 * r['qber']:.2f}%  (theory: ~25%)")
 
     assert 0.20 < r["qber"] < 0.30, f"QBER {r['qber']:.3f} outside expected band!"
-    print("\nOK — QBER ~25% as theory predicts.")
+    print("\nOK - QBER ~25% as theory predicts.")
     print("VERDICT: eavesdropping detected. Alice and Bob ABORT the key.")
 
 

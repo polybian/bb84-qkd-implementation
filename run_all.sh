@@ -10,13 +10,13 @@ else
   PY="python3"
 fi
 
-echo "=== 01 — BB84, no eavesdropper (clean channel) ==="
+echo "=== 01 - BB84, no eavesdropper (clean channel) ==="
 $PY scripts/01_bb84_no_eve.py
 echo
-echo "=== 02 — BB84 under intercept-resend attack (Eve) ==="
+echo "=== 02 - BB84 under intercept-resend attack (Eve) ==="
 $PY scripts/02_bb84_with_eve.py
 echo
-echo "=== 03 — Key rate vs raw qubits ==="
+echo "=== 03 - Key rate vs raw qubits ==="
 $PY scripts/03_key_rate.py
 echo
 echo "All three implementations completed successfully."

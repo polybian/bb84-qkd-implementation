@@ -2,8 +2,8 @@
 
 ## What this is
 
-A working simulation of **BB84** (Bennett & Brassard, 1984) — the first
-quantum key distribution protocol — built on Qiskit. It runs the full
+A working simulation of **BB84** (Bennett & Brassard, 1984), the first
+quantum key distribution protocol, built on Qiskit. It runs the full
 protocol end to end: quantum exchange, basis sifting, QBER estimation,
 and the abort decision, twice: once on a clean channel and once under
 an intercept-resend eavesdropping attack.
@@ -47,8 +47,8 @@ Each qubit is simulated individually on `AerSimulator` (shots=1,
 seeded). Alice's preparation and Bob's/Eve's measurements are real
 single-qubit circuits: Z-basis preparation is `X?`, X-basis adds `H`
 before and after. Eve's intercept-resend is modeled as two sequential
-simulations — measure in her basis, then re-prepare the eigenstate she
-observed — which is exactly what the attack does physically.
+simulations (measure in her basis, then re-prepare the eigenstate she
+observed) which is exactly what the attack does physically.
 
 Classical post-processing (sifting, sampling, QBER) is done with numpy
 on the recorded outcomes, mirroring the real public-channel discussion.
@@ -77,7 +77,7 @@ lands in the 20–30% band.
 ## What this is not
 
 Not a security proof, not a real QKD implementation (no decoy states,
-no finite-key analysis, no privacy amplification — the sample bits are
+no finite-key analysis, no privacy amplification: the sample bits are
 simply discarded rather than hashed out). It is a faithful
 *operational* model of the protocol's core loop, built to be understood
 and extended.

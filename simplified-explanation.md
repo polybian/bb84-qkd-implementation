@@ -7,7 +7,7 @@ explicárselo a un niño, puedes explicarlo en una entrevista.*
 
 ## 🕵️ Capítulo 1: El problema de los espías
 
-Tú y tu amigo quieren inventar una **clave secreta** — una contraseña
+Tú y tu amigo quieren inventar una **clave secreta**: una contraseña
 que solo ustedes dos sepan. El problema: tienen que ponérsela de
 acuerdo *hablando por teléfono*, y hay un espía escuchando todo. 📞👂
 
@@ -46,7 +46,7 @@ Bob, por cada moneda que llega, elige al azar con qué caja mirar.
 ## 🗣️ Capítulo 3: La llamada telefónica (que el espía sí puede oír)
 
 Después de mandar todas las monedas, Alice y Bob **se llaman por
-teléfono** — y el espía puede escuchar todo, no importa. Solo se dicen
+teléfono**: y el espía puede escuchar todo, no importa. Solo se dicen
 una cosa: *"¿qué caja usaste en cada moneda?"*. Nunca dicen los valores.
 
 Donde usaron la **misma caja** → se quedan con esos bits. ✅

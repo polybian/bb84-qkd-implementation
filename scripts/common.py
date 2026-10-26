@@ -11,7 +11,7 @@ Qiskit Aer simulator:
 
 After the quantum exchange, bases are compared over the public channel:
 only positions where Alice and Bob used the SAME basis are kept
-("sifting" — roughly half the raw qubits). A random ~20% sample of the
+("sifting" - roughly half the raw qubits). A random ~20% sample of the
 sifted key is then disclosed to estimate the QBER (quantum bit error
 rate); the sample bits are discarded and the rest is the final key.
 """
